@@ -30,11 +30,8 @@ F#
 
 let oneToFive = [1;2;3;4;5]
 
-let double = (*) 2
-
 let doubleInput input = input |> List.map (fun x -> x * 2) // int list -> int list
 // notice how the F# compiler has picked up on that input is an int list without being told as its looking at the context of the map function
-
 
 // F# is often like maths if something is on both sides it can often be ommited giving an even cleaner syntax
 // let doubleInput = List.map ((*) 2)
