@@ -38,9 +38,8 @@ let doubleInput input = input |> List.map (fun x -> x * 2) // int list -> int li
 
 // input |> doubleInput
 // [2;4;6;8;10]
-
-
 ```
+
 Updating a field in an object/record
 
 JS
@@ -50,7 +49,6 @@ const person1 = {firstName: "Akash", age: 24}
 
 const updatePerson1 = {...person1, age: 25}
 // {firstName: "Akash", age: 25}
-
 ```
 
 F#
