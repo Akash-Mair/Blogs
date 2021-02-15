@@ -7,7 +7,7 @@ Typescript to the rescue! Even though I got to use the awesome features that JS/
 # The Pit of success // TODO: link to Mark Seemans blog
 
 How do you win the uphill battle? Flip it on its head and make it hard to do the wrong thing. Thats why I fell in love with F#.
-It is a functional first language that is type safe and has all the features you love about JS and a lot more! The most difficulty I had when trying to pick up a statically typed langauage was all the pre setup and the verbose syntax of having to specify everything coming from a world where I could just focus on the code. But with F# that isnt the case.
+It is a functional first language that is type safe and has all the features you love about JS and a lot more! The biggest difficulty I had when trying to learn a statically typed langauage was all the pre setup and the verbose syntax of having to specify everything coming from a world where I could just focus on the code. But with F# that isnt the case.
 
 Here's a few direct comparisons
 
