@@ -93,7 +93,6 @@ JS
 F#
 
 ```
-
 ```
 
-For me F# gets the balance between having to specify types and letting you focus on solving the problem! Giving you some really cool tools and a whole new way of looking at problems.
+For me F# gets the balance between having to specify types and letting you focus on solving the problem! Giving you some really cool tools and a whole new way of looking at code. By having such a powerful complier F# feels like a dynamic language, having a clean syntax like JS/Python.
