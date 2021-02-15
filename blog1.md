@@ -91,4 +91,6 @@ F#
 ```
 ```
 
-For me F# gets the balance between having to specify types and letting you focus on solving the problem! From the examples above we can see that F# is succinct and can be cleaner than JS but has full type safety.
+From the examples above we can see that F# is succinct and can be cleaner than JS but has full type safety. This is just a small preview of what F# is capable of nut it was enough for me to start looking into the language and eventually make the switch over from JS.
+
+//TODO: Useful links 
