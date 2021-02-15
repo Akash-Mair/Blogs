@@ -4,7 +4,7 @@ I like a lot of the newer developers learnt how to code using Javascript. I love
 
 Typescript to the rescue! Even though I got to use the awesome features that JS/TS had to offer, it always felt like extra work, like fighting an uphill battle especially with the `any` type in play.
 
-# The Pit of success // TODO: link to Mark Seemans blog
+The Pit of success // TODO: link to Mark Seemans blog
 
 How do you win the uphill battle? Flip it on its head and make it hard to do the wrong thing. Thats why I fell in love with F#.
 It is a functional first language that is type safe and has all the features you love about JS and a lot more! The biggest difficulty I had when trying to learn a statically typed langauage was all the pre setup and the verbose syntax of having to specify everything coming from a world where I could just focus on the code. But with F# that isnt the case.
