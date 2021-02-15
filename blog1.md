@@ -70,9 +70,7 @@ const updatePerson1 = { person1 with Age: 25 }
 
 // Here we define a type of Person but F# has picked up that both person1 and updatedPerson1 are both of type Person
 ```
-Control Flow
-
-Ternary Operator
+Control Flow - Ternary Operator
 
 JS
 ```
@@ -84,9 +82,18 @@ F#
 let isTrue = if true then 'This is the value' else 'Never get reached'
 ```
 
-Switch 
+Control Flow - If/Switch 
 
-Pattern Matching
+JS
 
+```
+
+```
+
+F#
+
+```
+
+```
 
 For me F# gets the balance between having to specify types and letting you focus on solving the problem! Giving you some really cool tools and a whole new way of looking at problems.
