@@ -65,7 +65,7 @@ let person1 =
     { FirstName = "Akash" 
       Age = 24 }
 
-const updatePerson1 = { person1 with Age: 25 }
+let updatePerson1 = { person1 with Age: 25 }
 // { FirstName = "Akash"; Age = 25 }
 
 // Here we define a type of Person but F# has picked up that both person1 and updatedPerson1 are both of type Person
