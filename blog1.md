@@ -1,7 +1,6 @@
 # From JS to F#
 
-I like a lot of the newer developers learnt how to code using Javascript. I loved how quickly I could get a project up and running. But it always came with a cost of bugs and surprises for the QA team. Since JS has no type safety its up to us the developers to
-run through the possibilities and ensure weird bugs dont occur and that is hard.
+I like a lot of the newer developers learnt how to code using Javascript. I loved how quickly I could get a project up and running. But it always came with a cost of bugs and surprises for the QA team. Since JS has no type safety its up to us the developers to run through the possibilities and ensure weird bugs dont occur and thats hard.
 
 So we could use Typescript! But even though I got to use the awesome features that JS/TS had to offer, it always felt like extra work, like fighting an uphill battle especially with the `any` type in play.
 
@@ -31,12 +30,14 @@ let oneToFive = [1;2;3;4;5]
 
 let double = (*) 2
 
-let doubleInput input = input |> List.map (fun x -> x * 2)
+let doubleInput input = input |> List.map (fun x -> x * 2) // int list -> int list
+// notice how the F# compiler has picked up on that input is an int list without being told as its looking at the context of the map function
 
-// what I love about F# is that like maths if something is on both sides it can often be ommited giving an even cleaner syntax
+
+// F# is often like maths if something is on both sides it can often be ommited giving an even cleaner syntax
 // let doubleInput = List.map ((*) 2)
 
-input |> doubleInput
+// input |> doubleInput
 // [2;4;6;8;10]
 
 
@@ -66,6 +67,7 @@ let person1 = {FirstName = "Akash", Age = 24}
 const updatePerson1 = {person1 with Age: 25}
 // {FirstName = "Akash"; Age = 25}
 
+// Here we define a type of Person but F# has picked up that both person1 and updatedPerson1 are both of type Person
 ```
 
 For me F# gets the balance between having to specify types and letting you focus on solving the problem! Giving you some really cool tools and a whole new way of using types to code.
