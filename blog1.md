@@ -19,9 +19,9 @@ JS
 const oneToFive = [1,2,3,4,5]
 
 const doubleInput = input => input.map(x => x * 2)
+
 // doubleInput(oneToFive)
 // [2,4,6,8,10]
-
 ```
 
 
@@ -61,12 +61,10 @@ type Person = {
     Age: int
 }
 
-let person1 = 
-    { FirstName = "Akash" 
-      Age = 24 } // Person
+let person1 = { FirstName = "Akash"; Age = 24 } // Person
 
-let updatePerson1 = { person1 with Age = 25 }
-// { FirstName = "Akash"; Age = 25 }  Person
+let updatePerson1 = { person1 with Age = 25 } // Person
+// { FirstName = "Akash"; Age = 25 }  
 
 // Here we define a type of Person but F# has picked up that both person1 and updatedPerson1 are both of type Person
 ```
