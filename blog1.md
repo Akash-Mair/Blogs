@@ -1,13 +1,13 @@
 # From JS to F#
 
-I like a lot of the newer developers learnt how to code using Javascript. I loved how quickly I could get a project up and running. But it always came with a cost of bugs and surprises for the QA team. Since JS has no type safety its up to us the developers to run through the possibilities and ensure weird bugs dont occur and thats hard.
+I like a lot of the newer developers learnt how to code using Javascript. I loved how quickly I could get a project up and running. But it always came with a cost of bugs and surprises for the QA team. Since JS has no type safety its up to us developers to run through the possibilities and ensure weird bugs dont pop up and thats hard.
 
-So we could use Typescript! But even though I got to use the awesome features that JS/TS had to offer, it always felt like extra work, like fighting an uphill battle especially with the `any` type in play.
+Typescript to the rescue! Even though I got to use the awesome features that JS/TS had to offer, it always felt like extra work, like fighting an uphill battle especially with the `any` type in play.
 
 # The Pit of success
 
 How do you win the uphill battle? Flip it on its head and make it hard to do the wrong thing. Thats why I fell in love with F#.
-It is a functional first language that is type safe and has all the features you love about JS and a lot more! The most difficulty I found when trying to pick up a statically typed langauage was all the pre setup and the verbose syntax of having to specify everything. But with F# that isnt the case.
+It is a functional first language that is type safe and has all the features you love about JS and a lot more! The most difficulty I had when trying to pick up a statically typed langauage was all the pre setup and the verbose syntax of having to specify everything coming from a world where I could just focus on the code. But with F# that isnt the case.
 
 Here's a few direct comparisons
 
@@ -72,4 +72,4 @@ const updatePerson1 = {person1 with Age: 25}
 // Here we define a type of Person but F# has picked up that both person1 and updatedPerson1 are both of type Person
 ```
 
-For me F# gets the balance between having to specify types and letting you focus on solving the problem! Giving you some really cool tools and a whole new way of using types to code.
+For me F# gets the balance between having to specify types and letting you focus on solving the problem! Giving you some really cool tools and a whole new way of looking at problems.
