@@ -11,7 +11,7 @@ It is a functional first language that is type safe and has all the features you
 
 Here's a few direct comparisons
 
-Map
+Mapping through a list
 
 JS
 
@@ -44,8 +44,8 @@ let doubleInput input = input |> List.map (fun x -> x * 2) // int list -> int li
 
 
 ```
+Updating a field in an object/record
 
-rest spread
 JS
 
 ```
@@ -71,5 +71,22 @@ const updatePerson1 = {person1 with Age: 25}
 
 // Here we define a type of Person but F# has picked up that both person1 and updatedPerson1 are both of type Person
 ```
+Control Flow
+
+Ternary Operator
+
+```
+const isTrue = true ? 'This is the value' : 'Never get reached'
+```
+
+```
+let isTrue = if true then 'This is the value' else 'Never get reached'
+
+```
+
+Switch 
+
+Pattern Matching
+
 
 For me F# gets the balance between having to specify types and letting you focus on solving the problem! Giving you some really cool tools and a whole new way of looking at problems.
