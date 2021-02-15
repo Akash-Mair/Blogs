@@ -63,10 +63,10 @@ type Person = {
 
 let person1 = 
     { FirstName = "Akash" 
-      Age = 24 }
+      Age = 24 } // Person
 
-let updatePerson1 = { person1 with Age: 25 }
-// { FirstName = "Akash"; Age = 25 }
+let updatePerson1 = { person1 with Age = 25 }
+// { FirstName = "Akash"; Age = 25 }  Person
 
 // Here we define a type of Person but F# has picked up that both person1 and updatedPerson1 are both of type Person
 ```
@@ -79,7 +79,7 @@ const isTrue = true ? 'This is the value' : 'Never get reached'
 
 F#
 ```
-let isTrue = if true then 'This is the value' else 'Never get reached'
+let isTrue = if true then 'This is the value' else 'Never get reached' // string
 ```
 
 Control Flow - If/Switch 
@@ -95,4 +95,4 @@ F#
 ```
 ```
 
-For me F# gets the balance between having to specify types and letting you focus on solving the problem! Giving you some really cool tools and a whole new way of looking at code. By having such a powerful complier F# feels like a dynamic language, having a clean syntax like JS/Python.
+For me F# gets the balance between having to specify types and letting you focus on solving the problem! From the examples above we can see that F# is succinct and can be cleaner than JS but has full type safety.
