@@ -1,0 +1,71 @@
+# From JS to F#
+
+I like a lot of the newer developers learnt how to code using Javascript. I loved how quickly I could get a project up and running. But it always came with a cost of bugs and surprises for the QA team. Since JS has no type safety its up to us the developers to
+run through the possibilities and ensure weird bugs dont occur and that is hard.
+
+So we could use Typescript! But even though I got to use the awesome features that JS/TS had to offer, it always felt like extra work, like fighting an uphill battle especially with the `any` type in play.
+
+# The Pit of success
+
+How do you win the uphill battle? Flip it on its head and make it hard to do the wrong thing. Thats why I fell in love with F#.
+F# is a functional first language that is type safe and has all the features you love about JS and a lot more!
+
+Map
+
+JS
+
+```
+const oneToFive = [1,2,3,4,5]
+
+const doubleInput = input => input.map(x => x * 2)
+// doubleInput(oneToFive)
+// [2,4,6,8,10]
+
+```
+
+
+F#
+```
+
+let oneToFive = [1;2;3;4;5]
+
+let double = (*) 2
+
+let doubleInput input = input |> List.map (fun x -> x * 2)
+
+// what I love about F# is that like maths if something is on both sides it can often be ommited giving an even cleaner syntax
+// let doubleInput = List.map ((*) 2)
+
+input |> doubleInput
+// [2;4;6;8;10]
+
+
+```
+
+rest spread
+JS
+
+```
+const person1 = {firstName: "Akash", age: 24}
+
+const updatePerson1 = {...person1, age: 25}
+// {firstName: "Akash", age: 25}
+
+```
+
+F#
+
+```
+type Person = {
+    FirstName: string
+    Age: int
+}
+
+let person1 = {FirstName = "Akash", Age = 24}
+
+const updatePerson1 = {person1 with Age: 25}
+// {FirstName = "Akash"; Age = 25}
+
+```
+
+For me F# gets the balance between having to specify types and letting you focus on solving the problem! Giving you some really cool tools and a whole new way of using types to code.
