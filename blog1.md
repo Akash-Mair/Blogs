@@ -80,7 +80,6 @@ const isTrue = true ? 'This is the value' : 'Never get reached'
 F#
 ```
 let isTrue = if true then 'This is the value' else 'Never get reached'
-
 ```
 
 Switch 
